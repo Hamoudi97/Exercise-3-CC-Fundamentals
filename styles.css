@@ -1,0 +1,93 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(175, 157, 193);
+    margin: 0px;
+    padding: 15px;
+    padding-top: 0%;
+}
+
+form {
+    background-color: rgb(204, 65, 65);
+    padding: 17px;
+    border: 0px solid white;
+    border-radius: 10px;
+    width: 550px;
+    font-weight: bold;
+    margin: 0% auto;
+}
+
+h2 {
+    font-size: 34px;
+    font: weight bolder;
+    text-align: center;
+}
+
+form label {
+    padding: 0px;
+    margin: 3px;
+    font-weight: 545;
+    line-height: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+
+    width: 100%;
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+input[type="checkbox"] {
+    margin-right: 4px;
+}
+
+input[type="submit"] {
+    background-color: #12a42f;
+    color: black;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+    flex: auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #00fb0d;
+}
+
+input[type="reset"] {
+    background-color: #adaaaa;
+    color: black;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+    flex: auto;
+}
+
+input[type="reset"]:hover {
+    background-color: #505050;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
